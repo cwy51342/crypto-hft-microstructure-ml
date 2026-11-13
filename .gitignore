@@ -1,0 +1,9 @@
+# Ignore large raw tick data files
+*.csv
+!data/sample_trades.csv
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+venv/
+.env
